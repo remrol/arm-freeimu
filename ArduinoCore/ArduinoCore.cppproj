@@ -30,15 +30,15 @@
     <eraseonlaunchrule>0</eraseonlaunchrule>
     <AsfFrameworkConfig>
       <framework-data xmlns="">
-  <options />
-  <configurations />
-  <files />
-  <documentation help="" />
-  <offline-documentation help="" />
-  <dependencies>
-    <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.32.0" />
-  </dependencies>
-</framework-data>
+        <options />
+        <configurations />
+        <files />
+        <documentation help="" />
+        <offline-documentation help="" />
+        <dependencies>
+          <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.32.0" />
+        </dependencies>
+      </framework-data>
     </AsfFrameworkConfig>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
@@ -56,9 +56,9 @@
   <avrgcc.compiler.symbols.DefSymbols>
     <ListValues>
       <Value>NDEBUG</Value>
-      <Value>F_CPU=16000000L</Value>
+      <Value>F_CPU=8000000L</Value>
       <Value>ARDUINO=10609</Value>
-      <Value>ARDUINO_AVR_MEGA2560</Value>
+      <Value>ARDUINO_AVR_MEGA1280</Value>
       <Value>ARDUINO_ARCH_AVR</Value>
       <Value>USB_VID=0x2341</Value>
       <Value>USB_PID=0x0010</Value>
@@ -85,7 +85,7 @@
   <avrgcccpp.compiler.symbols.DefSymbols>
     <ListValues>
       <Value>NDEBUG</Value>
-      <Value>F_CPU=16000000L</Value>
+      <Value>F_CPU=8000000L</Value>
       <Value>ARDUINO=10609</Value>
       <Value>ARDUINO_AVR_MEGA2560</Value>
       <Value>ARDUINO_ARCH_AVR</Value>
@@ -139,9 +139,9 @@
   <avrgcc.compiler.symbols.DefSymbols>
     <ListValues>
       <Value>DEBUG</Value>
-      <Value>F_CPU=16000000L</Value>
+      <Value>F_CPU=8000000L</Value>
       <Value>ARDUINO=10609</Value>
-      <Value>ARDUINO_AVR_MEGA2560</Value>
+      <Value>ARDUINO_AVR_MEGA1280</Value>
       <Value>ARDUINO_ARCH_AVR</Value>
       <Value>USB_VID=0x2341</Value>
       <Value>USB_PID=0x0010</Value>
@@ -168,7 +168,7 @@
   <avrgcccpp.compiler.symbols.DefSymbols>
     <ListValues>
       <Value>DEBUG</Value>
-      <Value>F_CPU=16000000L</Value>
+      <Value>F_CPU=8000000L</Value>
       <Value>ARDUINO=10609</Value>
       <Value>ARDUINO_AVR_MEGA2560</Value>
       <Value>ARDUINO_ARCH_AVR</Value>
