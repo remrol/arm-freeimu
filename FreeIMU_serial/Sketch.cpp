@@ -55,7 +55,7 @@
 
 #define M_PI 3.14159
 #define HAS_GPS 0
-#define BaudRate 57600
+#define BaudRate 14400 //=57600/4, original 57600
 static const unsigned long GPSBaud = 57600;
 #define gpsSerial Serial1
 
