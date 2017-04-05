@@ -94,11 +94,11 @@ const uint16_t PROGMEM port_to_mode_PGM[] = {
 	(uint16_t) &DDRE,
 	(uint16_t) &DDRF,
 	(uint16_t) &DDRG,
-	(uint16_t) &DDRH,
 	NOT_A_PORT,
-	(uint16_t) &DDRJ,
-	(uint16_t) &DDRK,
-	(uint16_t) &DDRL,
+	NOT_A_PORT,
+	NOT_A_PORT,
+	NOT_A_PORT,
+	NOT_A_PORT,
 };
 
 const uint16_t PROGMEM port_to_output_PGM[] = {
@@ -110,11 +110,11 @@ const uint16_t PROGMEM port_to_output_PGM[] = {
 	(uint16_t) &PORTE,
 	(uint16_t) &PORTF,
 	(uint16_t) &PORTG,
-	(uint16_t) &PORTH,
 	NOT_A_PORT,
-	(uint16_t) &PORTJ,
-	(uint16_t) &PORTK,
-	(uint16_t) &PORTL,
+	NOT_A_PORT,
+	NOT_A_PORT,
+	NOT_A_PORT,
+	NOT_A_PORT,
 };
 
 const uint16_t PROGMEM port_to_input_PGM[] = {
@@ -126,11 +126,11 @@ const uint16_t PROGMEM port_to_input_PGM[] = {
 	(uint16_t) &PINE,
 	(uint16_t) &PINF,
 	(uint16_t) &PING,
-	(uint16_t) &PINH,
 	NOT_A_PIN,
-	(uint16_t) &PINJ,
-	(uint16_t) &PINK,
-	(uint16_t) &PINL,
+	NOT_A_PIN,
+	NOT_A_PIN,
+	NOT_A_PIN,
+	NOT_A_PIN,
 };
 
 const uint8_t PROGMEM digital_pin_to_port_PGM[] = {
