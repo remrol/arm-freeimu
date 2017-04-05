@@ -84,7 +84,7 @@
         <avrgcc.compiler.symbols.DefSymbols>
           <ListValues>
             <Value>NDEBUG</Value>
-            <Value>F_CPU=16000000L</Value>
+            <Value>F_CPU=8000000L</Value>
             <Value>ARDUINO=10609</Value>
             <Value>ARDUINO_AVR_MEGA2560</Value>
             <Value>ARDUINO_ARCH_AVR</Value>
@@ -113,7 +113,7 @@
         <avrgcccpp.compiler.symbols.DefSymbols>
           <ListValues>
             <Value>NDEBUG</Value>
-            <Value>F_CPU=16000000L</Value>
+            <Value>F_CPU=8000000L</Value>
             <Value>ARDUINO=10609</Value>
             <Value>ARDUINO_AVR_MEGA2560</Value>
             <Value>ARDUINO_ARCH_AVR</Value>
@@ -167,7 +167,7 @@
         <avrgcc.compiler.symbols.DefSymbols>
           <ListValues>
             <Value>DEBUG</Value>
-            <Value>F_CPU=16000000L</Value>
+            <Value>F_CPU=8000000L</Value>
             <Value>ARDUINO=10609</Value>
             <Value>ARDUINO_AVR_MEGA2560</Value>
             <Value>ARDUINO_ARCH_AVR</Value>
@@ -196,7 +196,7 @@
         <avrgcccpp.compiler.symbols.DefSymbols>
           <ListValues>
             <Value>DEBUG</Value>
-            <Value>F_CPU=16000000L</Value>
+            <Value>F_CPU=8000000L</Value>
             <Value>ARDUINO=10609</Value>
             <Value>ARDUINO_AVR_MEGA2560</Value>
             <Value>ARDUINO_ARCH_AVR</Value>
@@ -236,55 +236,205 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ADXL345.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="AK8963.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="AK8975.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="AltitudeComplementary.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="AP_Math_AVR_Compat.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="AP_Math_freeimu.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="AP_Math_freeimu.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="AverageFilter.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="BaroSensor.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="bma180.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="BMP085.cpp">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="BMP085.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Butter.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="calibration.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="CommunicationUtils.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="CommunicationUtils.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="DCM.cpp">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="DCM.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="DebugUtils.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="DerivativeFilter.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="EEPROM.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Filter.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="FilterClass.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="FilteringScheme.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="FilteringScheme.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="FilterWithBuffer.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="FreeIMU.cpp">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="FreeIMU.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="HMC58X3.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="HMC58X3.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="I2Cdev.cpp">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="I2Cdev.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="iCompass.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="iCompass.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="ITG3200.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Kalman.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="L3G.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="LowPassFilter.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="LowPassFilter2p.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="LPS.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="LSM303.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="LSM9DS1_Registers.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="LSM9DS1_Types.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="matrix3.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="ModeFilter.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="MovingAvarageFilter.cpp">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="MovingAvarageFilter.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="MPU60X0.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="MPU60X0.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="MPU60X0_6Axis_MotionApps20.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="MS561101BA.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="rotations.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="RunningAverage.cpp">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="RunningAverage.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="Sketch.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="SparkFunLSM9DS1.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="SPI.cpp">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="SPI.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="TinyGPS++.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="twi.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="twi.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="vector2.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="vector3.cpp">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="vector3.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="vectorN.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="Wire.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Wire.h">
       <SubType>compile</SubType>
     </Compile>
     <Content Include="readme.html">
