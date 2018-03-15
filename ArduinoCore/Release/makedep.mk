@@ -24,8 +24,6 @@ src\core\Print.cpp
 
 src\core\Stream.cpp
 
-src\core\Tone.cpp
-
 src\core\WInterrupts.c
 
 src\core\wiring.c

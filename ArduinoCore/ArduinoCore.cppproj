@@ -283,9 +283,6 @@
     <Compile Include="src\core\Stream.cpp">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="src\core\Tone.cpp">
-      <SubType>compile</SubType>
-    </Compile>
     <Compile Include="src\core\WInterrupts.c">
       <SubType>compile</SubType>
     </Compile>

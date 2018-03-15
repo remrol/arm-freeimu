@@ -54,7 +54,6 @@ C_SRCS +=  \
 ../src/core/new.cpp \
 ../src/core/Print.cpp \
 ../src/core/Stream.cpp \
-../src/core/Tone.cpp \
 ../src/core/WInterrupts.c \
 ../src/core/wiring.c \
 ../src/core/wiring_analog.c \
@@ -84,7 +83,6 @@ src/core/new.o \
 src/core/PreprocessingAssembly/wiring_pulse.o \
 src/core/Print.o \
 src/core/Stream.o \
-src/core/Tone.o \
 src/core/WInterrupts.o \
 src/core/wiring.o \
 src/core/wiring_analog.o \
@@ -106,7 +104,6 @@ src/core/new.o \
 src/core/PreprocessingAssembly/wiring_pulse.o \
 src/core/Print.o \
 src/core/Stream.o \
-src/core/Tone.o \
 src/core/WInterrupts.o \
 src/core/wiring.o \
 src/core/wiring_analog.o \
@@ -128,7 +125,6 @@ src/core/new.d \
 src/core/PreprocessingAssembly/wiring_pulse.d \
 src/core/Print.d \
 src/core/Stream.d \
-src/core/Tone.d \
 src/core/WInterrupts.d \
 src/core/wiring.d \
 src/core/wiring_analog.d \
@@ -150,7 +146,6 @@ src/core/new.d \
 src/core/PreprocessingAssembly/wiring_pulse.d \
 src/core/Print.d \
 src/core/Stream.d \
-src/core/Tone.d \
 src/core/WInterrupts.d \
 src/core/wiring.d \
 src/core/wiring_analog.d \
@@ -174,8 +169,6 @@ LINKER_SCRIPT_DEP+=
 
 
 # AVR32/GNU C Compiler
-
-
 
 
 
