@@ -45,7 +45,6 @@ SUBDIRS :=  \
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS +=  \
 ../src/core/abi.cpp \
-../src/core/CDC.cpp \
 ../src/core/HardwareSerial.cpp \
 ../src/core/HardwareSerial0.cpp \
 ../src/core/HardwareSerial1.cpp \
@@ -76,7 +75,6 @@ ASM_SRCS +=
 
 OBJS +=  \
 src/core/abi.o \
-src/core/CDC.o \
 src/core/HardwareSerial.o \
 src/core/HardwareSerial0.o \
 src/core/HardwareSerial1.o \
@@ -100,7 +98,6 @@ src/core/WString.o
 
 OBJS_AS_ARGS +=  \
 src/core/abi.o \
-src/core/CDC.o \
 src/core/HardwareSerial.o \
 src/core/HardwareSerial0.o \
 src/core/HardwareSerial1.o \
@@ -124,7 +121,6 @@ src/core/WString.o
 
 C_DEPS +=  \
 src/core/abi.d \
-src/core/CDC.d \
 src/core/HardwareSerial.d \
 src/core/HardwareSerial0.d \
 src/core/HardwareSerial1.d \
@@ -148,7 +144,6 @@ src/core/WString.d
 
 C_DEPS_AS_ARGS +=  \
 src/core/abi.d \
-src/core/CDC.d \
 src/core/HardwareSerial.d \
 src/core/HardwareSerial0.d \
 src/core/HardwareSerial1.d \
@@ -184,8 +179,6 @@ LINKER_SCRIPT_DEP+=
 
 
 # AVR32/GNU C Compiler
-
-
 
 
 
