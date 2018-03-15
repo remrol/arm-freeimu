@@ -250,9 +250,6 @@
     <Compile Include="include\variants\mega\pins_arduino.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="src\core\abi.cpp">
-      <SubType>compile</SubType>
-    </Compile>
     <Compile Include="src\core\HardwareSerial.cpp">
       <SubType>compile</SubType>
     </Compile>

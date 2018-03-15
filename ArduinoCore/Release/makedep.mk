@@ -2,10 +2,6 @@
 # Automatically-generated file. Do not edit or delete the file
 ################################################################################
 
-src\core\abi.cpp
-
-src\core\CDC.cpp
-
 src\core\HardwareSerial.cpp
 
 src\core\HardwareSerial0.cpp
