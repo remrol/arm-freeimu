@@ -226,9 +226,6 @@
     <Compile Include="include\core\HardwareSerial_private.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="include\core\IPAddress.h">
-      <SubType>compile</SubType>
-    </Compile>
     <Compile Include="include\core\new.h">
       <SubType>compile</SubType>
     </Compile>
@@ -242,9 +239,6 @@
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="include\core\Stream.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="include\core\Udp.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="include\core\USBAPI.h">
@@ -287,9 +281,6 @@
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="src\core\hooks.c">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="src\core\IPAddress.cpp">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="src\core\main.cpp">

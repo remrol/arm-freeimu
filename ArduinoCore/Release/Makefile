@@ -52,7 +52,6 @@ C_SRCS +=  \
 ../src/core/HardwareSerial2.cpp \
 ../src/core/HardwareSerial3.cpp \
 ../src/core/hooks.c \
-../src/core/IPAddress.cpp \
 ../src/core/main.cpp \
 ../src/core/new.cpp \
 ../src/core/Print.cpp \
@@ -84,7 +83,6 @@ src/core/HardwareSerial1.o \
 src/core/HardwareSerial2.o \
 src/core/HardwareSerial3.o \
 src/core/hooks.o \
-src/core/IPAddress.o \
 src/core/main.o \
 src/core/new.o \
 src/core/PreprocessingAssembly/wiring_pulse.o \
@@ -109,7 +107,6 @@ src/core/HardwareSerial1.o \
 src/core/HardwareSerial2.o \
 src/core/HardwareSerial3.o \
 src/core/hooks.o \
-src/core/IPAddress.o \
 src/core/main.o \
 src/core/new.o \
 src/core/PreprocessingAssembly/wiring_pulse.o \
@@ -134,7 +131,6 @@ src/core/HardwareSerial1.d \
 src/core/HardwareSerial2.d \
 src/core/HardwareSerial3.d \
 src/core/hooks.d \
-src/core/IPAddress.d \
 src/core/main.d \
 src/core/new.d \
 src/core/PreprocessingAssembly/wiring_pulse.d \
@@ -159,7 +155,6 @@ src/core/HardwareSerial1.d \
 src/core/HardwareSerial2.d \
 src/core/HardwareSerial3.d \
 src/core/hooks.d \
-src/core/IPAddress.d \
 src/core/main.d \
 src/core/new.d \
 src/core/PreprocessingAssembly/wiring_pulse.d \
@@ -189,8 +184,6 @@ LINKER_SCRIPT_DEP+=
 
 
 # AVR32/GNU C Compiler
-
-
 
 
 

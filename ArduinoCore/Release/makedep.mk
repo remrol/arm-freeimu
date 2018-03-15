@@ -18,8 +18,6 @@ src\core\HardwareSerial3.cpp
 
 src\core\hooks.c
 
-src\core\IPAddress.cpp
-
 src\core\main.cpp
 
 src\core\new.cpp

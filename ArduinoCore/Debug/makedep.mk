@@ -18,13 +18,9 @@ src\core\HardwareSerial3.cpp
 
 src\core\hooks.c
 
-src\core\IPAddress.cpp
-
 src\core\main.cpp
 
 src\core\new.cpp
-
-src\core\PluggableUSB.cpp
 
 src\core\PreprocessingAssembly\wiring_pulse.S
 
@@ -33,8 +29,6 @@ src\core\Print.cpp
 src\core\Stream.cpp
 
 src\core\Tone.cpp
-
-src\core\USBCore.cpp
 
 src\core\WInterrupts.c
 
